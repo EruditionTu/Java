@@ -3,13 +3,14 @@ import java.util.*;
 import java.io.*;
 public class Main {
     public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
-        System.out.println("next 方式接收：");
-        if(s.hasNext()){
-            String str = s.next();
-            System.out.println(str);
-        }
-        s.close();
+        Mouse mo=new Mouse("小老鼠",0);
+        mo.introduction();
+        mo.eat();
+        mo.sleep();
+        Penguin pe =new Penguin("小企鹅",0);
+        pe.introduction();
+        pe.eat();
+        pe.sleep();
     }
 }
 
