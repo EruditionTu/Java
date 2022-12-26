@@ -12,4 +12,7 @@ public class Mouse extends Animal{
         super.move();
         System.out.println("鼠鼠我啊，可以移动啦");
     }
+    public void move(int len){
+        System.out.println((len));
+    }
 }
