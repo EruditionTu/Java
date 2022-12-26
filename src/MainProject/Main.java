@@ -5,12 +5,14 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Mouse mo=new Mouse("小老鼠",0);
         mo.introduction();
-        mo.eat();
-        mo.sleep();
+        mo.move();
+//        mo.eat();
+//        mo.sleep();
         Penguin pe =new Penguin("小企鹅",0);
         pe.introduction();
-        pe.eat();
-        pe.sleep();
+        pe.move();
+//        pe.eat();
+//        pe.sleep();
     }
 }
 

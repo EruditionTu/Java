@@ -16,4 +16,7 @@ public class Animal {
     public void introduction() {
         System.out.println("大家好！我是"+ id + "号" + name + ".");
     }
+    public void move(){
+        System.out.println("动物可以移动");
+    }
 }
